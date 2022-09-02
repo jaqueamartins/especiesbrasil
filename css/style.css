@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, p, span{
+    margin: 0;
+    padding: 0;
+}
+
+.wraper{
+    position:absolute; 
+    width: 100%;
+    height: 100vh;
+}
+
+.a{
+    position: fixed;
+    background-image: url(../img/tucano.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.b{
+    margin-top: 100vh;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.tucano{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: end;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: #FE8E24;
+    height: 100vh;
+    width: 100px;
+    z-index: 3;
+}
+
+.tucano-info{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding-bottom: 250px;
+}
+
+.tucano-info2{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1{
+    color: #FE8E24;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 16px;
+    color: #FE8E24;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.info{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 100px;
+    
+}
+
+.info-principal h2{
+    color: #FE8E24;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.info-lateral h3{
+    margin-bottom: 20px;
+}
+
+.info-principal p{
+    color: gray;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.classificacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.classificacao p{
+    font-size: 16px;
+    color: gray;
+}
+
+.imagem{
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.outroAnimal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FE8E24;
+}
+
+.outroAnimal-info img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.outroAnimal-texto{
+    margin: 20px;
+}
+
+.outroAnimal-texto h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.outroAnimal-texto p{
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.slider-horizontal{
+    display: flex;
+    overflow: scroll;
+}
